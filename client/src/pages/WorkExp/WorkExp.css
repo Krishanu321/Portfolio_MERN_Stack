@@ -1,0 +1,37 @@
+.work{
+    background-color: #1387812a;
+    margin-left: 140px;
+}
+
+.work-exp{
+    padding: 60px 0px;
+}
+.work-exp h2{
+    font-weight: bold;
+    color: #381297;
+}
+.work-exp hr{
+    color: #000000;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.work-exp .vertical-timeline-element-title{
+    color: #9909ac;
+}
+
+.work-exp .vertical-timeline-element-subtitle{
+    color: rgb(10, 8, 105);
+}
+
+/* ================*/
+@media (max-width: 600px){
+    .work{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .work hr{
+        width: 280px;
+    }
+}

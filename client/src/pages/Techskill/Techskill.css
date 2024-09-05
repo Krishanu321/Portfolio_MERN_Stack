@@ -1,0 +1,44 @@
+.techskill{
+    padding-left: 130px;
+    margin-top: 60px ;
+}
+
+.techskill hr{
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.techskill h2{
+    font-weight: bold;
+    color: #08ada5;
+}
+
+.techskill .card{
+    cursor: pointer;
+}
+
+.techskill .tech-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.techskill .card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgb(63, 223, 235);
+    color: rgb(4, 10, 94);
+    border: none;
+    transition: 1s;
+}
+
+/* ======================================*/
+@media (max-width:600px){
+    .techskill{
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .techskill hr{
+        width: 280px;
+    }
+}
